@@ -82,9 +82,7 @@ export default function Footer() {
               <div className="flex items-start">
                 <MapPin size={20} className="mr-3 text-[#ff7b54] mt-1" />
                 <span className="text-gray-300 text-lg">
-                  Khayaban Garden, Hassan Block,
-                  <br />
-                  Street #9, Faisalabad
+                  City Dubai, UAE
                 </span>
               </div>
             </div>

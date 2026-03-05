@@ -439,35 +439,35 @@
 }
 
 /* First item (Lead Generation) - LEFT side */
-.process-step:nth-child(1) .process-content {
+.process-timeline > *:nth-child(1) .process-content {
   margin-right: auto;
   text-align: left;
 }
 
-.process-step:nth-child(1) .process-number {
-  left: -25px;
+.process-timeline > *:nth-child(1) .process-number {
+  left: calc(45% - 25px);
   right: auto;
 }
 
 /* Second item (Telesales) - RIGHT side */
-.process-step:nth-child(2) .process-content {
+.process-timeline > *:nth-child(2) .process-content {
   margin-left: auto;
   text-align: right;
 }
 
-.process-step:nth-child(2) .process-number {
-  right: -25px;
-  left: auto;
+.process-timeline > *:nth-child(2) .process-number {
+  left: calc(55% - 25px);
+  right: auto;
 }
 
 /* Third item (Fulfillment) - LEFT side */
-.process-step:nth-child(3) .process-content {
+.process-timeline > *:nth-child(3) .process-content {
   margin-right: auto;
   text-align: left;
 }
 
-.process-step:nth-child(3) .process-number {
-  left: -25px;
+.process-timeline > *:nth-child(3) .process-number {
+  left: calc(45% - 25px);
   right: auto;
 }
 
